@@ -35,12 +35,7 @@ class App extends React.Component {
           <p>Welcome {this.state.name}! Your age is {this.state.age}</p>
           <form className="ui form" onSubmit={this.handleSubmit}>
             <label>Enter your name:</label>
-            <input
-              type="text"
-              id="name"
-              className="ui text"
-              onChange={this.handleChange}
-            />
+            <input type="text" id="name" className="ui text" onChange={this.handleChange} />
           </form>
           <br />
           <div className="inline">
